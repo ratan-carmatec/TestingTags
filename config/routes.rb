@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'payments/index'
   get 'images/index'
   get 'products/index'
   get 'homes/index'
