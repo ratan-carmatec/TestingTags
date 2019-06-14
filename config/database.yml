@@ -25,7 +25,7 @@ default: &default
 development:
   <<: *default
   database: TestingTag_development
-  username: postgres
-  password: postgres
+  username: <%=ENV['development_username']%>
+  password: <%=ENV['development_password']%>
 
   
