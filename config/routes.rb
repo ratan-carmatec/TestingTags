@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'statistics/index'
+  get 'admins/index'
   get 'users/index'
   get 'payments/index'
   get 'images/index'
